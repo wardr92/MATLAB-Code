@@ -28,7 +28,7 @@ function [FileMat,Path,NFiles,FilePathMat]=getfilesindir(Path,InMask);
 %	GetFilesInDir
 	
 %   EMEGS - Electro Magneto Encephalography Software                           
-%   © Copyright 2005 Markus Junghoefer & Peter Peyk                            
+%   Â© Copyright 2005 Markus Junghoefer & Peter Peyk                            
 %   Implemented programs from: Andrea de Cesarei, Thomas Gruber,               
 %   Olaf Hauk, Andreas Keil, Olaf Steinstraeter, Nathan Weisz                  
 %   and Andreas Wollbrink.                                                     
