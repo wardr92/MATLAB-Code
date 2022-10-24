@@ -41,7 +41,7 @@ for i = 1:size(AllSubs,1) % Loops through all folders
             ax = gca; % Edits the plot in figure 1 above
             ax.FontSize = 18; % Sets font size to 18
             ax.Box = 'off';   % Removes the box around the plot
-            xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+            xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
             xlim([0 160]); 
             xticks([0 40 80 120 160]);
             yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -54,7 +54,7 @@ for i = 1:size(AllSubs,1) % Loops through all folders
         ax = gca; % Edits the plot in figure 1 above
         ax.FontSize = 18; % Sets font size to 18
         ax.Box = 'off';   % Removes the box around the plot
-        xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Apply labels to x and y axes 
+        xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Apply labels to x and y axes 
         xlim([0 160]); 
         xticks([0 40 80 120 160]);
         yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -68,7 +68,6 @@ for i = 1:size(AllSubs,1) % Loops through all folders
         for d = 1:size(Files2Delete,1) % Loops through all slidwin.mat files present
             delete(Files2Delete(d).name); % Deletes older slidwin.mat files present
         end
-         clearvars -except AllSubs i ii ASSR_Bins ASSR_BinNames outmat Conditions Apps
     end
     fprintf(['\nSliding window complete for ' (AllSubs(i,:)) ' (i.e., participant #'  num2str(i) ' in loop) \n'])
     cd('..') % Moves out of the current selected folder    
@@ -83,7 +82,7 @@ function [FileMat,Path,NFiles,FilePathMat]=getfilesindir(Path,InMask);
 %	GetFilesInDir
 	
 %   EMEGS - Electro Magneto Encephalography Software                           
-%   © Copyright 2005 Markus Junghoefer & Peter Peyk                            
+%   Â© Copyright 2005 Markus Junghoefer & Peter Peyk                            
 %   Implemented programs from: Andrea de Cesarei, Thomas Gruber,               
 %   Olaf Hauk, Andreas Keil, Olaf Steinstraeter, Nathan Weisz                  
 %   and Andreas Wollbrink.                                                     
