@@ -39,7 +39,7 @@ for i = 1:size(AllSubs,1) % Loops through all folders
             ax = gca; % Edits the plot in figure 1 above
             ax.FontSize = 18; % Sets font size to 18
             ax.Box = 'off';   % Removes the box around the plot
-            xlabel('Frequency (Hz)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+            xlabel('Frequency (Hz)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
             xlim([0 60]); 
             xticks([0 10 20 30 40 50 60]);
             xline(41.2,'-k',{'41.2 Hz'}, 'linewidth', 2, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -53,7 +53,7 @@ for i = 1:size(AllSubs,1) % Loops through all folders
         ax = gca; % Edits the plot in figure 1 above
         ax.FontSize = 18; % Sets font size to 18
         ax.Box = 'off';   % Removes the box around the plot
-        xlabel('Frequency (Hz)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+        xlabel('Frequency (Hz)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
         xlim([0 60]); 
         xticks([0 10 20 30 40 50 60]);
         xline(41.2,'-k',{'41.2 Hz'}, 'linewidth', 2, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -77,7 +77,7 @@ function [FileMat,Path,NFiles,FilePathMat]=getfilesindir(Path,InMask);
 %	GetFilesInDir
 	
 %   EMEGS - Electro Magneto Encephalography Software                           
-%   © Copyright 2005 Markus Junghoefer & Peter Peyk                            
+%   Â© Copyright 2005 Markus Junghoefer & Peter Peyk                            
 %   Implemented programs from: Andrea de Cesarei, Thomas Gruber,               
 %   Olaf Hauk, Andreas Keil, Olaf Steinstraeter, Nathan Weisz                  
 %   and Andreas Wollbrink.                                                     
