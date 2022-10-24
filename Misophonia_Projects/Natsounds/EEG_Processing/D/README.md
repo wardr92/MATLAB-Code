@@ -35,3 +35,15 @@ Natsounds_SingleSubjects_SlidewinFFT(AllSubs, fsamp) % Function to compute FFT f
 
 Natsounds_GrandAverage_SlidewinFFT() % Function to compute grand average FFT on sliding window data
 
+
+![image](https://user-images.githubusercontent.com/89857713/197606430-5c90b94a-15bb-4537-b16b-35676df2d09c.png)
+
+clc;clear % Cleans up workspace
+
+AllSubs = getfilesindir(pwd, 'natsounds*'); % Grabs all subject folders
+
+cyclelength = 194.1748; % Length of each cycle segments (wavelength X the number of cycles)
+
+Natsounds_SingleSubjects_SlidewinFFT_Mat2emegs(AllSubs, cyclelength) % Function to convert files to emegs format
+
+Natsounds_GrandAverage_SlidewinFFT_Mat2emegs() % Function to convert grand average files to emegs format
