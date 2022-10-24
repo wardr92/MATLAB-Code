@@ -52,7 +52,7 @@ for vi = 1:size(WinmatConditions)
     ax = gca; % Edits the plot in figure 1 above
     ax.FontSize = 18; % Sets font size to 18
     ax.Box = 'off';   % Removes the box around the plot
-    xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+    xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
     xlim([0 160]); 
     xticks([0 40 80 120 160]);
     yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -65,7 +65,7 @@ plot(GrandAverageWinmatsAllCon_FirstTime(:,:)'); % Plots all sensors across all 
 ax = gca; % Edits the plot in figure 1 above
 ax.FontSize = 18; % Sets font size to 18
 ax.Box = 'off';   % Removes the box around the plot
-xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
 xlim([0 160]); 
 xticks([0 40 80 120 160]);
 yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -81,7 +81,7 @@ for vi = 1:size(WinmatConditions)
     ax = gca; % Edits the plot in figure 1 above
     ax.FontSize = 18; % Sets font size to 18
     ax.Box = 'off';   % Removes the box around the plot
-    xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+    xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
     xlim([0 160]); 
     xticks([0 40 80 120 160]);
     yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -94,7 +94,7 @@ plot(GrandAverageWinmatsAllCon_SecondTime(:,:)'); % Plots all sensors across all
 ax = gca; % Edits the plot in figure 1 above
 ax.FontSize = 18; % Sets font size to 18
 ax.Box = 'off';   % Removes the box around the plot
-xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
 xlim([0 160]); 
 xticks([0 40 80 120 160]);
 yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -110,7 +110,7 @@ for vi = 1:size(WinmatConditions)
     ax = gca; % Edits the plot in figure 1 above
     ax.FontSize = 18; % Sets font size to 18
     ax.Box = 'off';   % Removes the box around the plot
-    xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+    xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
     xlim([0 160]); 
     xticks([0 40 80 120 160]);
     yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -123,7 +123,7 @@ plot(GrandAverageWinmatsAllCon_ThirdTime(:,:)'); % Plots all sensors across all 
 ax = gca; % Edits the plot in figure 1 above
 ax.FontSize = 18; % Sets font size to 18
 ax.Box = 'off';   % Removes the box around the plot
-xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
 xlim([0 160]); 
 xticks([0 40 80 120 160]);
 yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -139,7 +139,7 @@ for vi = 1:size(WinmatConditions)
     ax = gca; % Edits the plot in figure 1 above
     ax.FontSize = 18; % Sets font size to 18
     ax.Box = 'off';   % Removes the box around the plot
-    xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+    xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
     xlim([0 160]); 
     xticks([0 40 80 120 160]);
     yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -152,7 +152,7 @@ plot(GrandAverageWinmatsAllCon_FourthTime(:,:)'); % Plots all sensors across all
 ax = gca; % Edits the plot in figure 1 above
 ax.FontSize = 18; % Sets font size to 18
 ax.Box = 'off';   % Removes the box around the plot
-xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
 xlim([0 160]); 
 xticks([0 40 80 120 160]);
 yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -168,7 +168,7 @@ for vi = 1:size(WinmatConditions)
     ax = gca; % Edits the plot in figure 1 above
     ax.FontSize = 18; % Sets font size to 18
     ax.Box = 'off';   % Removes the box around the plot
-    xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+    xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
     xlim([0 160]); 
     xticks([0 40 80 120 160]);
     yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -181,7 +181,7 @@ plot(GrandAverageWinmatsAllCon_FifthTime(:,:)'); % Plots all sensors across all 
 ax = gca; % Edits the plot in figure 1 above
 ax.FontSize = 18; % Sets font size to 18
 ax.Box = 'off';   % Removes the box around the plot
-xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
 xlim([0 160]); 
 xticks([0 40 80 120 160]);
 yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -197,7 +197,7 @@ for vi = 1:size(WinmatConditions)
     ax = gca; % Edits the plot in figure 1 above
     ax.FontSize = 18; % Sets font size to 18
     ax.Box = 'off';   % Removes the box around the plot
-    xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+    xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
     xlim([0 160]); 
     xticks([0 40 80 120 160]);
     yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -210,7 +210,7 @@ plot(GrandAverageWinmatsAllCon_SixthTime(:,:)'); % Plots all sensors across all 
 ax = gca; % Edits the plot in figure 1 above
 ax.FontSize = 18; % Sets font size to 18
 ax.Box = 'off';   % Removes the box around the plot
-xlabel('Time (ms)'), ylabel('Amplitude (µV)'); % Applies labels to x and y axes 
+xlabel('Time (ms)'), ylabel('Amplitude (ÂµV)'); % Applies labels to x and y axes 
 xlim([0 160]); 
 xticks([0 40 80 120 160]);
 yline(0,'-k', 'linewidth', 1, 'labelverticalalignment', 'top', 'labelorientation', 'horizontal');
@@ -229,7 +229,7 @@ function [FileMat,Path,NFiles,FilePathMat]=getfilesindir(Path,InMask);
 %	GetFilesInDir
 	
 %   EMEGS - Electro Magneto Encephalography Software                           
-%   © Copyright 2005 Markus Junghoefer & Peter Peyk                            
+%   Â© Copyright 2005 Markus Junghoefer & Peter Peyk                            
 %   Implemented programs from: Andrea de Cesarei, Thomas Gruber,               
 %   Olaf Hauk, Andreas Keil, Olaf Steinstraeter, Nathan Weisz                  
 %   and Andreas Wollbrink.                                                     
