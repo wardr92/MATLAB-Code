@@ -1,0 +1,16 @@
+    dat = readtable(getfilesindir(pwd,'*.dat')); % Imports the .dat file
+    txt = dlmread(getfilesindir(pwd, '*.dat.ratings.txt')); % Imports the .txt file
+    dat = table2array(dat(28:end, 6)); % Grabs the rating conditions
+    for ii = 1:size(dat,1) % converts letters to numbered conditions
+        if dat{ii,1} == 'M'
+            dat{ii,1} = 1;
+        elseif dat{ii,1} == 'U'
+            dat{ii,1} = 2;
+        elseif dat{ii,1} == 'P'
+            dat{ii,1} = 3;
+        elseif dat{ii,1} == 'N'
+            dat{ii,1} = 4;
+        end
+    end
+    dat = cell2mat(dat); % Converts dat to array
+    Data = [txt, dat]; % Combines ratings with dat
