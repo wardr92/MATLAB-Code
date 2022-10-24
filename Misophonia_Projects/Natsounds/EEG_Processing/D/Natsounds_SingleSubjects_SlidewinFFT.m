@@ -64,7 +64,6 @@ for i = 1:size(AllSubs,1) % Loops through all folders
         print(fig1, '-dtiff', strcat(AllSubs(i,:), '_Slidewin_FFT_SpectralPower_AveragedTrials_', (WinmatTimes(ii,32:42)), '_Plots.tiff'));
         close all % Clears all figures
         fprintf(['\nFFT ' (AllSubs(i,:)) ' (i.e., participant #'  num2str(i) ' in loop) \n'])
-        clearvars -except AllSubs i ii WinmatTimes
     end 
     cd('..') % Moves out of the current selected folder    
 end   
