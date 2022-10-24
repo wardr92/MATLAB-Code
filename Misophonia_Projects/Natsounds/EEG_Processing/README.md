@@ -11,6 +11,6 @@ D. Compute Sliding Window Averaging and FFT
 
 E. Compute Signal to Nose Ratios
 
-
+F. Hilbert Transformations
 
 Please refer to each section for specific instructions.
